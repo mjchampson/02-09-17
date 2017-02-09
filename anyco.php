@@ -5,7 +5,7 @@ ui_print_header('Departments');
 ui_print_footer(date("Y-m-d H:i:s"));
 
 ?>
-<!--yan yung bago sa baba --->
+<!--yan yung bago sa baba -->
 <?php
 require("anyco_ui.inc");
 $conn=oci_connect("hr",'hr','//localhost/XE');
