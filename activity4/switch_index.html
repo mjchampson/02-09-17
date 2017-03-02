@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>act#9</title>
+</head>
+<body>
+<script language="javascript" type="text/javascript">
+<!--
+function getgrade(){
+	var status = true;
+	var isNaN= true;
+	while(status){
+	var retValgrade= prompt("Enter a number:","grade")
+
+switch(true){
+	case (retValgrade >=96 && retValgrade <=100 ):
+	status = false;
+		document.write("A+");
+		break;
+	case (retValgrade >=91 && retValgrade <=95 ):
+	status = false;
+		document.write("A");
+		break;
+	case (retValgrade >=86 && retValgrade <=90 ):
+	status = false;
+		document.write("A-");
+		break;
+	case (retValgrade >=80 && retValgrade <=85 ):
+	status = false;
+		document.write("B+");
+		break;
+	case (retValgrade >=74 && retValgrade <=80 ):
+	status = false;
+		document.write("B");
+		break;
+	case (retValgrade >=65 && retValgrade <=73 ):
+	status = false;
+		document.write("B-");
+		break;
+	case (retValgrade >=60 && retValgrade <=65 ):
+	status = false;
+		document.write("C+");
+		break;
+	case (retValgrade >=55 && retValgrade <=60 ):
+	status = false;
+		document.write("C");
+		break;
+	case (retValgrade >=50 && retValgrade <=55 ):
+	status = false;
+		document.write("C-");
+		break;
+	case (retValgrade <=49 && retValgrade <=0 ):
+	status = false;
+		document.write("F");
+		break;
+	
+	default:alert("Re-Enter correct Grade.");
+	}
+}
+}
+-->
+
+</script>
+<h1>Grading System</h1>
+<input type="button" value="GRADE" onclick="getgrade()"/>
+</body>
+</html>
+
+
